@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      .div1 {
+        margin: 25px auto;
+        padding: 20px;
+        text-align: center;
+        background-color: #e3dadb;
+        width: 20%;
+      }
+      .headingMainBlue {
+        color: #000078;
+        font-weight: bold;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 150%;
+      }
+      #imgs {
+        height: 150px;
+        width: 100px;
+      }
+      .subHeadBlack {
+        font-weight: lighter;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 5px;
+        font-size: 150%;
+      }
+      .container {
+        width: 40%;
+        margin: auto;
+        overflow: auto;
+      }
+      .leftDiv {
+        float: left;
+      }
+      .rightDiv {
+        padding-left: 20px;
+        overflow: hidden;
+      }
+      .headingMainOrange {
+        color: #d40203;
+        font-weight: bold;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 150%;
+      }
+      .normalText {
+        font-weight: normal;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 100%;
+      }
+      .footer {
+        margin: 50px 300px;
+        background-color: #d35500;
+        height: 150px;
+        /* width: 100%; */
+      }
+      .subHeadWhite {
+        color: white;
+        font-weight: normal;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        /* padding: 10px; */
+        font-size: 150%;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .left {
+        margin-top: 20px;
+        float: left;
+        /* display: inline-block;         */
+        padding-right: 30%;
+        border-right: 10px;
+        border-right-color: black;
+        border-right-style: solid;
+      }
+      .right {
+        text-align: right;
+        margin-top: 20px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <img
+        src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/linus.jpg"
+        alt="Image of Linus"
+        id="imgs"
+      />
+      <h2 class="headingMainBlue">Linus Torvalds</h2>
+      <h3 class="subHeadBlack">The creator of Linux & Git</h3>
+    </div>
+
+    <div class="container">
+      <div class="leftDiv">
+        <img
+          src="https://masai-course.s3.ap-south-1.amazonaws.com/resources/images/khan.jpg"
+          alt=""
+          id="imgs"
+        />
+      </div>
+      <div class="rightDiv">
+        <h2 class="headingMainOrange">Sal Khan</h2>
+        <p class="normalText">
+          Salman Khan is the founder of the Khan Academy which has a mission of
+          providing a free world-class education for anyone, anywhere
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="left">
+        <h3 class="subHeadWhite">Ken Thompson</h3>
+        <p class="normalText">
+          Designed and Implemented the <br />
+          original Unix operating system
+        </p>
+      </div>
+      <div class="right">
+        <h3 class="subHeadWhite">Dennis Ritchie</h3>
+        <p class="normalText">The creator of C Programming Language</p>
+      </div>
+    </div>
+  </body>
+</html>
